@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Yony David ⇝ RyOoxNaY</title>
+    <link rel="stylesheet" href="css/style_web.css">
+    <link rel="icon" type="imagenes" href="imagenes/ww_2.png">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">RyOoxNaY</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagenes/YonyDavid.jpeg" alt="">
+            </div>
+            <h1>Yony David Leal Garcia</h1>
+            <h2>Ingeniero en Sistemas Computacionales</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/chilly69willy/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/lealgarciayonydavid-ryk/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/ryooxnay"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/ryooxnay/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/ryooxnay"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, mi nombre es Yony David Leal Garcia.</span>
+                Responsabilidad, honestidad, trabajo duro son las bases con las que mis padres me han forjado y el
+                estudio me enseño las aptitudes necesarias para trabajar de manera correcta. Soy apasionado de la
+                tecnología de la información en busca de experiencias profesionales orientada al desarrollo de software
+                principalmente al análisis y manejo de datos.
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            27 de mayo de 1993
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            231 150 8440
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            yony_ddc@live.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.ryooxnay.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Lomas 5 de mayo, Puebla Puebla
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Gestor de trafico AUDI</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>AJEDRES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>HIP - HOP</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>PYTHON</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>CAMINATAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEER</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>YOU-TUBE</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <a href="cv/CV_analisis_Yony231024.pdf" download="CV_analisis_Yony231024.pdf"
+                    class="fa-solid fa-download"></a><i class=""></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>EXCEL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MY-SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>DASH BOARD</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniero en Sistemas Computacionales</h4>
+                        <span class="casa">Instituto Tecnologico Superior de Teziutlan</span>
+
+
+                        <span class="fecha">2016 - 2022 <a href="https://teziutlan.tecnm.mx/"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Termine mis estudios como Ingeniero en Sistemas Computacionales.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Sistema Digital De Inventario</h4>
+                        <span class="casa">Asociaciones Agroindustriales Serrana</span>
+                        <span class="fecha">2022 - 2022 <a href="https://serranas.com.mx/es/inicio/"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Realice un sistema de inventarios (CRUD) utilizando SQL como gestor de base de datos.</p>
+                        <p>Cuenta con sistema de registro con diferentes permisos.</p>
+                        <p>Proyecto realizado utilizando HTML, PHP, SQL-server, Materialize, CSS, Bootstrap.</p>
+                        <p>Ayude a mejorar sistema para la captura, visualización de datos y creación de reportes</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Proyecto de Enciclopedia Digital </h4>
+                        <span class="casa">Telesecundaria Hermanos Serdán</span>
+                        <span class="fecha">2021 - 2021 <a
+                                href="https://alumnosonline.com/telesecundarias/puebla/hueytamalco.html"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Realice una biblioteca digital para los maestros en el cual trae información y actividades
+                            que sirven
+                            para los alumnos de primer, segundo y tercer año.</p>
+                        <p>Proyecto realizado en Java.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>CCNA Routing and Switching: Principios básicos de routing y switching</h4>
+                        <span class="casa">Instituto Tecnologico Superior de Teziutlan</span>
+                        <span class="fecha">2020 - 2020 <a href="https://teziutlan.tecnm.mx/"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Obtube un certificado en router y switch mientras cursaba mi estudio como Ingeniero en
+                            Sistemas.
+                            En el cual ...
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico Mecanico Automotriz</h4>
+                        <span class="casa">Universidad De Los Angeles</span>
+                        <span class="fecha">2013 - 2015 <a
+                                href="https://www.facebook.com/UDEAPTeziutlan/?locale=es_LA"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Realize una carrera Tecnica como Mecanico Automotriz y mientras la cursaba realizando
+                            mantenimiento en diferentes talleres automotrices.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--                    experiencia de trabajo                        -->
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+
+                    <div class="item der">
+                        <h4>In House Gestor de trafico</h4>
+                        <span class="casa">Logistica SESE AUDI</span>
+                        <span class="fecha">octubre 2023 - octubre 2024<a href="https://gruposese.com/"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Registrar la entrada y dar codigo de acceso a los transportistas de material para AUDI.</p>
+                        <p>Registrar la salida y dar nueva ruta a los transportistas de materiales.</p>
+                        <p>Registrar el material de entrada y de salida.</p>
+                        <p>Revisar facturas y comparar con la lista de carga si corresponde a lo solicitado.</p>
+                        <p>Tomar y registrar los tiempos dentro de AUDI de entrada y de salida.</p>
+                        <p>Subir todos los archivos a la nube para fururas aclaraciones.</p>
+                        <p>Hacer limpieza de datos de lo registrado.</p>
+                        <p>Manejo de materiales Criticos</p>
+                        <p>Solucionar problemas</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar administrativo en Sistemas</h4>
+                        <span class="casa">Logistica SESE Puebla</span>
+                        <span class="fecha">jinio-octubre 2023 <a href="https://gruposese.com/"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Registrar las entradas y salidas de los materiales productivos y de vacíos de los diferentes
+                            proveedores, para la platana VWM y AUDI.</p>
+                        <p>Controlar las asignaciones de rampas de descarga y carga de material. </p>
+                        <p>Recepcionar los materiales por proveedores en la plataforma para su futura carga.</p>
+                        <p>Le doy proceso a las facturas de los operadores y entrego la documentación adecuada.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar en ventas</h4>
+                        <span class="casa">Tienda 3B</span>
+                        <span class="fecha">marzo - mayo 2023 <a href="https://tiendas3b.com/"><img
+                                    src="imagenes/localizacion.png" alt=""></a></span>
+                        <p>Atencion al cliente</p>
+                        <p>Manejo de efectivo</p>
+                        <p>Almacenista</p>
+                        <p>Acomodo de mercancia</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Sistema de inventario</h4>
+                        <span class="casa">El bebe consentido</span>
+                        <span class="fecha">2021 - 2020 </span>
+                        <p>Realice un sistema de inventario utilizando hojas de calculo de Excel como base de datos.</p>
+                        <p>Mejore el sistema de entradas y salidas, así también ayude a llevar un buen control del stock
+                            en
+                            tienda utilizando tablas dinámicas.</p>
+                        <p>El sistema cuenta con Dashboard para analizar los datos y crear reporte adecuados a la
+                            temporada
+                            para la venta de productos.</p>
+                        <p>Auxiliar de almacen</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/CAFE_carrusel.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Inventario web</h3>
+                        <p>HTML, SQL, JavaScrip</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/CAFE_login.png" alt="">
+                    <div class="overlay">
+                        <h3>Sistema de Inventario web</h3>
+                        <p>HTML, SQL, JavaScrip</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/LectorPDF_2.png" alt="">
+                    <div class="overlay">
+                        <h3>LECTOR DE PDF</h3>
+                        <p>PYTHON</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/python_calculadora.png" alt="">
+                    <div class="overlay">
+                        <h3>CALCULADORA</h3>
+                        <p>PYTHON</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/Tele_Login.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto Enciclopedia</h3>
+                        <p>Java</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/Tienda_Regi.png" alt="">
+                    <div class="overlay">
+                        <h3>Inventario de tienda</h3>
+                        <p>Java</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION certificados -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>CERTIFICADOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/imagen_cursoExcel.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado de Coursera</h3>
+                        <p>Excel</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/Imagen_cursoR.png" alt="">
+                    <div class="overlay">
+                        <h3>Certificado de Coursera</h3>
+                        <p>R</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/norma_035_3b.png" alt="">
+                    <div class="overlay">
+                        <h3>Norma 035 3B</h3>
+                        <p>Factores de riesgo psicosocial</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/img_titulo.png" alt="">
+                    <div class="overlay">
+                        <h3>Titulo Electronico</h3>
+                        <h3>ITST</h3>
+                        <p>Ingeniero en Sistemas Computacionales</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imagenes_proyectos/reconocimento_CS_3B.png" alt="">
+                    <div class="overlay">
+                        <h3>Ciberseguridad</h3>
+                        <p>Reconocimiento 3B</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO 
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Puebla, Puebla Colonia Lomas 5 de Mayo
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                231 - 150 - 8440
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                yony_ddc@live.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/chilly69willy/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/lealgarciayonydavid-ryk/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/ryooxnay"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ryooxnay/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/ryooxnay"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
